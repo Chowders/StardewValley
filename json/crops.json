@@ -1,0 +1,96 @@
+{
+  "Spring" : [
+    {
+      "name" : "Cauliflower",
+      "growthStages" : [1,2,4,4,1],
+      "totalGrowthTime" : 12,
+      "buyPrice" : 80,
+      "normalSellPrice" : 175,
+      "silverSellPrice" : 218,
+      "goldSellPrice" : 262
+    },
+    {
+      "name" : "Garlic",
+      "growthStages" : [1,1,1,1],
+      "totalGrowthTime" : 4,
+      "buyPrice" : 40,
+      "normalSellPrice" : 60,
+      "silverSellPrice" : 75,
+      "goldSellPrice" : 90
+    },
+    {
+      "name" : "GreenBean",
+      "growthStages" : [1,1,1,1,2,4],
+      "totalGrowthTime" : 10,
+      "reproduceTime" : 3,
+      "buyPrice" : 60,
+      "normalSellPrice" : 40,
+      "silverSellPrice" : 50,
+      "goldSellPrice" : 60
+    },
+    {
+      "name" : "Kale",
+      "growthStages" : [1,2,2,1],
+      "totalGrowthTime" : 6,
+      "buyPrice" : 70,
+      "normalSellPrice" : 110,
+      "silverSellPrice" : 137,
+      "goldSellPrice" : 165
+    },
+    {
+      "name" : "Parsnip",
+      "growthStages" : [1,1,1,1],
+      "totalGrowthTime" : 4,
+      "buyPrice" : 20,
+      "normalSellPrice" : 35,
+      "silverSellPrice" : 43,
+      "goldSellPrice" : 52
+    },
+    {
+      "name" : "Potato",
+      "growthStages" : [1,1,1,2,1],
+      "totalGrowthTime" : 6,
+      "buyPrice" : 50,
+      "normalSellPrice" : 80,
+      "silverSellPrice" : 100,
+      "goldSellPrice" : 120
+    },
+    {
+      "name" : "Rhubarb",
+      "growthStages" : [2,2,2,3,4],
+      "totalGrowthTime" : 13,
+      "buyPrice" : 100,
+      "normalSellPrice" : 220,
+      "silverSellPrice" : 275,
+      "goldSellPrice" : 330
+    },
+    {
+      "name" : "Strawberry",
+      "growthStages" : [1,1,2,2,2],
+      "totalGrowthTime" : 8,
+      "reproduceTime" : 4,
+      "buyPrice" : 100,
+      "normalSellPrice" : 120,
+      "silverSellPrice" : 150,
+      "goldSellPrice" : 180
+    },
+    {
+      "name" : "BlueJazz",
+      "growthStages" : [1,2,2,2],
+      "totalGrowthTime" : 7,
+      "buyPrice" : 30,
+      "normalSellPrice" : 50,
+      "silverSellPrice" : 62,
+      "goldSellPrice" : 75
+    },
+    {
+      "name" : "Tulip",
+      "growthStages" : [1,1,2,1,1],
+      "totalGrowthTime" : 6,
+      "buyPrice" : 20,
+      "normalSellPrice" : 30,
+      "silverSellPrice" : 37,
+      "goldSellPrice" : 45
+    }
+  ]
+}
