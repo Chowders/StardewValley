@@ -9,11 +9,12 @@ speedGrowCalculator = function(data) {
   var month = 28;
   for(crop in season)
   {
+    var actualCrop = season[crop];
     minSpeed = calculateSingleGrowthTime(season[crop].growthStages,true,false,false);
     speed = calculateSingleGrowthTime(season[crop].growthStages,true,false,true);
     maxSpeed = calculateSingleGrowthTime(season[crop].growthStages,true,false,true);
     var daysleft, daysleftMin, daysleftMax;
-    if(season[crop].reproduceTime){
+    if(actualCrop.reproduceTime){
       reproduceTime = season[crop].reproduceTime;
       minHarvest = Math.floor((month-minSpeed)/reproduceTime)+1;
       harvest = Math.floor((month-speed)/reproduceTime)+1;
@@ -29,19 +30,32 @@ speedGrowCalculator = function(data) {
       daysleft = daysLeft(month,speed,harvest);
       daysleftMax = daysLeft(month,maxSpeed,maxHarvest);
     }
-
+    var normalSellPrice = actualCrop.normalSellPrice;
+    console.log(actualCrop.name);
+    console.log("G/D Minimium: " + calculateGoldPerDay(normalSellPrice,minHarvest,daysleftMin,2,month));
+    console.log("G/D Medium: " + calculateGoldPerDay(normalSellPrice,harvest,daysleft,2,month));
+    console.log("G/D Maximum: " + calculateGoldPerDay(normalSellPrice,maxHarvest,daysleftMax,2,month));
+    console.log();
     console.log(season[crop].name + ":{");
     console.log("Speed Grow: \n{\n Growth Time: " + minSpeed + "\n Max Harvest: " + minHarvest + "\n Days Left: " + daysleftMin + "\n}");
     console.log("Speed Grow & Agriculturist: {\n Growth Time: " + speed + "\n Max Harvest: " + harvest + "\n Days Left: " + daysleft +"\n}");
     console.log("Max Grow: {\n Growth Time: " + maxSpeed + "\n Max Harvest: " + maxHarvest + "\n Days Left: " + daysleftMax + "\n}\n}");
   }
 };
+calculateGoldPerDay = function(sellPrice,harvest,daysLeft,minDaysLeft,month) {
+  if(daysLeft<minDaysLeft)
+  {
+    return (sellPrice*harvest)/month;
+  }else {
+    return (sellPrice*harvest)/(month-daysLeft)
+  }
+}
 
 daysLeft = function(month,speed,harvest,reproduceTime) {
   if(reproduceTime){
     return month-speed-reproduceTime*(harvest-1);
   } else {
-    return month-maxHarvest*maxSpeed;
+    return month-harvest*speed;
   }
 };
 
