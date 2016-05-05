@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Cauliflower",
+        "growthStages": [
+            1,
+            2,
+            4,
+            4,
+            1
+        ],
+        "totalGrowthTime": 12,
+        "buyPrice": 80,
+        "normalSellPrice": 175,
+        "silverSellPrice": 218,
+        "goldSellPrice": 262,
+        "minHarvest": 2,
+        "harvest": 3,
+        "maxHarvest": 3,
+        "daysleftMin": 8,
+        "daysleft": 1,
+        "daysleftMax": 1,
+        "minGPD": "17.50",
+        "normalGPD": "18.75",
+        "maxGPD": "18.75",
+        "speedGrowGrowthRate": 10,
+        "speedGrowAgricultureGrowthRate": 9,
+        "deluxeSpeedAgricultureGrowGrowthRate": 9
+    },
+    {
+        "name": "Garlic",
+        "growthStages": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "totalGrowthTime": 4,
+        "buyPrice": 40,
+        "normalSellPrice": 60,
+        "silverSellPrice": 75,
+        "goldSellPrice": 90,
+        "minHarvest": 9,
+        "harvest": 9,
+        "maxHarvest": 9,
+        "daysleftMin": 1,
+        "daysleft": 1,
+        "daysleftMax": 1,
+        "minGPD": "19.29",
+        "normalGPD": "19.29",
+        "maxGPD": "19.29",
+        "speedGrowGrowthRate": 3,
+        "speedGrowAgricultureGrowthRate": 3,
+        "deluxeSpeedAgricultureGrowGrowthRate": 3
+    },
+    {
+        "name": "GreenBean",
+        "growthStages": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            4
+        ],
