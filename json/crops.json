@@ -19,7 +19,7 @@
       "goldSellPrice" : 90
     },
     {
-      "name" : "GreenBean",
+      "name" : "Green Bean",
       "growthStages" : [1,1,1,1,2,4],
       "totalGrowthTime" : 10,
       "reproduceTime" : 3,
@@ -75,7 +75,7 @@
       "goldSellPrice" : 180
     },
     {
-      "name" : "BlueJazz",
+      "name" : "Blue Jazz",
       "growthStages" : [1,2,2,2],
       "totalGrowthTime" : 7,
       "buyPrice" : 30,
@@ -91,6 +91,120 @@
       "normalSellPrice" : 30,
       "silverSellPrice" : 37,
       "goldSellPrice" : 45
+    }
+  ],
+  "Summer" : [
+    {
+      "name" : "Blueberry",
+      "growthStages" : [1,3,3,4,2],
+      "totalGrowthTime" : 13,
+      "reproduceTime" : 4,
+      "buyPrice" : 80,
+      "normalSellPrice" : 80,
+      "silverSellPrice" : 100,
+      "goldSellPrice" : 120
+    },
+    {
+      "name" : "Corn",
+      "growthStages" : [2,3,3,3,3],
+      "totalGrowthTime" : 14,
+      "buyPrice" : 150,
+      "normalSellPrice" : 50,
+      "silverSellPrice" : 62,
+      "goldSellPrice" : 75
+    },
+    {
+      "name" : "Hops",
+      "growthStages" : [1,1,2,3,4],
+      "totalGrowthTime" : 11,
+      "reproduceTime" : 1,
+      "buyPrice" : 60,
+      "normalSellPrice" : 25,
+      "silverSellPrice" : 31,
+      "goldSellPrice" : 37
+    },
+    {
+      "name" : "Hot Pepper",
+      "growthStages" : [1,1,1,2],
+      "totalGrowthTime" : 5,
+      "reproduceTime" : 3,
+      "buyPrice" : 40,
+      "normalSellPrice" : 40,
+      "silverSellPrice" : 50,
+      "goldSellPrice" : 60
+    },
+    {
+      "name" : "Melon",
+      "growthStages" : [1,2,3,3,3],
+      "totalGrowthTime" : 12,
+      "buyPrice" : 80,
+      "normalSellPrice" : 250,
+      "silverSellPrice" : 312,
+      "goldSellPrice" : 375
+    },
+    {
+      "name" : "Radish",
+      "growthStages" : [2,1,2,1],
+      "totalGrowthTime" : 6,
+      "buyPrice" : 40,
+      "normalSellPrice" : 90,
+      "silverSellPrice" : 112,
+      "goldSellPrice" : 135
+    },
+    {
+      "name" : "Red Cabbage",
+      "growthStages" : [2,1,2,2,2],
+      "totalGrowthTime" : 9,
+      "buyPrice" : 100,
+      "normalSellPrice" : 260,
+      "silverSellPrice" : 325,
+      "goldSellPrice" : 390
+    },
+    {
+      "name" : "Starfruit",
+      "growthStages" : [2,3,3,2,3],
+      "totalGrowthTime" : 13,
+      "buyPrice" : 400,
+      "normalSellPrice" : 800,
+      "silverSellPrice" : 1000,
+      "goldSellPrice" : 1200
+    },
+    {
+      "name" : "Tomato",
+      "growthStages" : [2,2,2,2,3],
+      "totalGrowthTime" : 11,
+      "reproduceTime" : 4,
+      "buyPrice" : 50,
+      "normalSellPrice" : 60,
+      "silverSellPrice" : 75,
+      "goldSellPrice" : 90
+    },
+    {
+      "name" : "Wheat",
+      "growthStages" : [1,1,1,1],
+      "totalGrowthTime" : 4,
+      "buyPrice" : 10,
+      "normalSellPrice" : 25,
+      "silverSellPrice" : 31,
+      "goldSellPrice" : 37
+    },
+    {
+      "name" : "Poppy",
+      "growthStages" : [1,2,2,2],
+      "totalGrowthTime" : 7,
+      "buyPrice" : 100,
+      "normalSellPrice" : 140,
+      "silverSellPrice" : 210,
+      "goldSellPrice" : 275
+    },
+    {
+      "name" : "Summer Spangler",
+      "growthStages" : [1,2,3,2],
+      "totalGrowthTime" : 8,
+      "buyPrice" : 50,
+      "normalSellPrice" : 90,
+      "silverSellPrice" : 112,
+      "goldSellPrice" : 135
     }
   ]
 }

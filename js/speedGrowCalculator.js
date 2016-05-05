@@ -5,7 +5,7 @@ function getCropData() {
 }
 
 function speedGrowCalculator(data) {
-  var season = data.Spring;
+  var season = data.Summer;
   var month = 28;
   for(crop in season)
   {

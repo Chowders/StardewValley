@@ -1,0 +1,562 @@
+[
+    {
+        "name": "Blueberry",
+        "growthStages": [
+            1,
+            3,
+            3,
+            4,
+            2
+        ],
+        "totalGrowthTime": 13,
+        "reproduceTime": 4,
+        "buyPrice": 80,
+        "normalSellPrice": 80,
+        "silverSellPrice": 100,
+        "goldSellPrice": 120,
+        "speedGrowStages": [
+            1,
+            2,
+            2,
+            4,
+            2
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            2,
+            2,
+            3,
+            2
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            2,
+            2,
+            3,
+            1
+        ],
+        "speedGrowHarvest": 5,
+        "speedGrowAgricultureHarvest": 5,
+        "deluxeSpeedAgricultureHarvest": 5,
+        "speedGrowDaysLeft": 1,
+        "speedGrowAgricultureDaysLeft": 2,
+        "deluxeSpeedAgricultureDaysLeft": 3,
+        "speedGrowGPD": "14.29",
+        "speedGrowAgricultureGPD": "15.38",
+        "deluxeSpeedAgricultureGPD": "16.00",
+        "speedGrowGrowthRate": 11,
+        "speedGrowAgricultureGrowthRate": 10,
+        "deluxeSpeedAgricultureGrowGrowthRate": 9
+    },
+    {
+        "name": "Corn",
+        "growthStages": [
+            2,
+            3,
+            3,
+            3,
+            3
+        ],
+        "totalGrowthTime": 14,
+        "buyPrice": 150,
+        "normalSellPrice": 50,
+        "silverSellPrice": 62,
+        "goldSellPrice": 75,
+        "speedGrowStages": [
+            1,
+            2,
+            3,
+            3,
+            3
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            2,
+            2,
+            3,
+            3
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            2,
+            2,
+            2,
+            2
+        ],
+        "speedGrowHarvest": 2,
+        "speedGrowAgricultureHarvest": 2,
+        "deluxeSpeedAgricultureHarvest": 3,
+        "speedGrowDaysLeft": 4,
+        "speedGrowAgricultureDaysLeft": 6,
+        "deluxeSpeedAgricultureDaysLeft": 1,
+        "speedGrowGPD": "4.17",
+        "speedGrowAgricultureGPD": "4.55",
+        "deluxeSpeedAgricultureGPD": "5.36",
+        "speedGrowGrowthRate": 12,
+        "speedGrowAgricultureGrowthRate": 11,
+        "deluxeSpeedAgricultureGrowGrowthRate": 9
+    },
+    {
+        "name": "Hops",
+        "growthStages": [
+            1,
+            1,
+            2,
+            3,
+            4
+        ],
+        "totalGrowthTime": 11,
+        "reproduceTime": 1,
+        "buyPrice": 60,
+        "normalSellPrice": 25,
+        "silverSellPrice": 31,
+        "goldSellPrice": 37,
+        "speedGrowStages": [
+            1,
+            0,
+            1,
+            3,
+            4
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            0,
+            1,
+            2,
+            4
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            0,
+            1,
+            2,
+            3
+        ],
+        "speedGrowHarvest": 20,
+        "speedGrowAgricultureHarvest": 21,
+        "deluxeSpeedAgricultureHarvest": 22,
+        "speedGrowDaysLeft": 0,
+        "speedGrowAgricultureDaysLeft": 0,
+        "deluxeSpeedAgricultureDaysLeft": 0,
+        "speedGrowGPD": "17.86",
+        "speedGrowAgricultureGPD": "18.75",
+        "deluxeSpeedAgricultureGPD": "19.64",
+        "speedGrowGrowthRate": 9,
+        "speedGrowAgricultureGrowthRate": 8,
+        "deluxeSpeedAgricultureGrowGrowthRate": 7
+    },
+    {
+        "name": "Hot Pepper",
+        "growthStages": [
+            1,
+            1,
+            1,
+            2
+        ],
+        "totalGrowthTime": 5,
+        "reproduceTime": 3,
+        "buyPrice": 40,
+        "normalSellPrice": 40,
+        "silverSellPrice": 50,
+        "goldSellPrice": 60,
+        "speedGrowStages": [
+            1,
+            0,
+            1,
+            2
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            0,
+            1,
+            2
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            0,
+            0,
+            2
+        ],
+        "speedGrowHarvest": 9,
+        "speedGrowAgricultureHarvest": 9,
+        "deluxeSpeedAgricultureHarvest": 9,
+        "speedGrowDaysLeft": 0,
+        "speedGrowAgricultureDaysLeft": 0,
+        "deluxeSpeedAgricultureDaysLeft": 1,
+        "speedGrowGPD": "12.86",
+        "speedGrowAgricultureGPD": "12.86",
+        "deluxeSpeedAgricultureGPD": "12.86",
+        "speedGrowGrowthRate": 4,
+        "speedGrowAgricultureGrowthRate": 4,
+        "deluxeSpeedAgricultureGrowGrowthRate": 3
+    },
+    {
+        "name": "Melon",
+        "growthStages": [
+            1,
+            2,
+            3,
+            3,
+            3
+        ],
+        "totalGrowthTime": 12,
+        "buyPrice": 80,
+        "normalSellPrice": 250,
+        "silverSellPrice": 312,
+        "goldSellPrice": 375,
+        "speedGrowStages": [
+            1,
+            1,
+            2,
+            3,
+            3
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            1,
+            2,
+            2,
+            3
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            1,
+            2,
+            2,
+            2
+        ],
+        "speedGrowHarvest": 2,
+        "speedGrowAgricultureHarvest": 3,
+        "deluxeSpeedAgricultureHarvest": 3,
+        "speedGrowDaysLeft": 8,
+        "speedGrowAgricultureDaysLeft": 1,
+        "deluxeSpeedAgricultureDaysLeft": 4,
+        "speedGrowGPD": "25.00",
+        "speedGrowAgricultureGPD": "26.79",
+        "deluxeSpeedAgricultureGPD": "31.25",
+        "speedGrowGrowthRate": 10,
+        "speedGrowAgricultureGrowthRate": 9,
+        "deluxeSpeedAgricultureGrowGrowthRate": 8
+    },
+    {
+        "name": "Radish",
+        "growthStages": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "totalGrowthTime": 6,
+        "buyPrice": 40,
+        "normalSellPrice": 90,
+        "silverSellPrice": 112,
+        "goldSellPrice": 135,
+        "speedGrowStages": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            0,
+            2,
+            1
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "speedGrowHarvest": 5,
+        "speedGrowAgricultureHarvest": 7,
+        "deluxeSpeedAgricultureHarvest": 9,
+        "speedGrowDaysLeft": 3,
+        "speedGrowAgricultureDaysLeft": 0,
+        "deluxeSpeedAgricultureDaysLeft": 1,
+        "speedGrowGPD": "18.00",
+        "speedGrowAgricultureGPD": "22.50",
+        "deluxeSpeedAgricultureGPD": "28.93",
+        "speedGrowGrowthRate": 5,
+        "speedGrowAgricultureGrowthRate": 4,
+        "deluxeSpeedAgricultureGrowGrowthRate": 3
+    },
+    {
+        "name": "Red Cabbage",
+        "growthStages": [
+            2,
+            1,
+            2,
+            2,
+            2
+        ],
+        "totalGrowthTime": 9,
+        "buyPrice": 100,
+        "normalSellPrice": 260,
+        "silverSellPrice": 325,
+        "goldSellPrice": 390,
+        "speedGrowStages": [
+            1,
+            1,
+            2,
+            2,
+            2
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            0,
+            2,
+            2,
+            2
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            0,
+            1,
+            1,
+            2
+        ],
+        "speedGrowHarvest": 3,
+        "speedGrowAgricultureHarvest": 4,
+        "deluxeSpeedAgricultureHarvest": 5,
+        "speedGrowDaysLeft": 4,
+        "speedGrowAgricultureDaysLeft": 0,
+        "deluxeSpeedAgricultureDaysLeft": 3,
+        "speedGrowGPD": "32.50",
+        "speedGrowAgricultureGPD": "37.14",
+        "deluxeSpeedAgricultureGPD": "52.00",
+        "speedGrowGrowthRate": 8,
+        "speedGrowAgricultureGrowthRate": 7,
+        "deluxeSpeedAgricultureGrowGrowthRate": 5
+    },
+    {
+        "name": "Starfruit",
+        "growthStages": [
+            2,
+            3,
+            3,
+            2,
+            3
+        ],
+        "totalGrowthTime": 13,
+        "buyPrice": 400,
+        "normalSellPrice": 800,
+        "silverSellPrice": 1000,
+        "goldSellPrice": 1200,
+        "speedGrowStages": [
+            1,
+            2,
+            3,
+            2,
+            3
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            2,
+            2,
+            2,
+            3
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            2,
+            2,
+            1,
+            2
+        ],
+        "speedGrowHarvest": 2,
+        "speedGrowAgricultureHarvest": 2,
+        "deluxeSpeedAgricultureHarvest": 3,
+        "speedGrowDaysLeft": 6,
+        "speedGrowAgricultureDaysLeft": 8,
+        "deluxeSpeedAgricultureDaysLeft": 4,
+        "speedGrowGPD": "72.73",
+        "speedGrowAgricultureGPD": "80.00",
+        "deluxeSpeedAgricultureGPD": "100.00",
+        "speedGrowGrowthRate": 11,
+        "speedGrowAgricultureGrowthRate": 10,
+        "deluxeSpeedAgricultureGrowGrowthRate": 8
+    },
+    {
+        "name": "Tomato",
+        "growthStages": [
+            2,
+            2,
+            2,
+            2,
+            3
+        ],
+        "totalGrowthTime": 11,
+        "reproduceTime": 4,
+        "buyPrice": 50,
+        "normalSellPrice": 60,
+        "silverSellPrice": 75,
+        "goldSellPrice": 90,
+        "speedGrowStages": [
+            1,
+            1,
+            2,
+            2,
+            3
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            1,
+            1,
+            2,
+            3
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            1,
+            1,
+            1,
+            3
+        ],
+        "speedGrowHarvest": 5,
+        "speedGrowAgricultureHarvest": 6,
+        "deluxeSpeedAgricultureHarvest": 6,
+        "speedGrowDaysLeft": 3,
+        "speedGrowAgricultureDaysLeft": 0,
+        "deluxeSpeedAgricultureDaysLeft": 1,
+        "speedGrowGPD": "12.00",
+        "speedGrowAgricultureGPD": "12.86",
+        "deluxeSpeedAgricultureGPD": "12.86",
+        "speedGrowGrowthRate": 9,
+        "speedGrowAgricultureGrowthRate": 8,
+        "deluxeSpeedAgricultureGrowGrowthRate": 7
+    },
+    {
+        "name": "Wheat",
+        "growthStages": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "totalGrowthTime": 4,
+        "buyPrice": 10,
+        "normalSellPrice": 25,
+        "silverSellPrice": 31,
+        "goldSellPrice": 37,
+        "speedGrowStages": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            0,
+            0,
+            1
+        ],
+        "speedGrowHarvest": 9,
+        "speedGrowAgricultureHarvest": 9,
+        "deluxeSpeedAgricultureHarvest": 14,
+        "speedGrowDaysLeft": 1,
+        "speedGrowAgricultureDaysLeft": 1,
+        "deluxeSpeedAgricultureDaysLeft": 0,
+        "speedGrowGPD": "8.04",
+        "speedGrowAgricultureGPD": "8.04",
+        "deluxeSpeedAgricultureGPD": "12.50",
+        "speedGrowGrowthRate": 3,
+        "speedGrowAgricultureGrowthRate": 3,
+        "deluxeSpeedAgricultureGrowGrowthRate": 2
+    },
+    {
+        "name": "Poppy",
+        "growthStages": [
+            1,
+            2,
+            2,
+            2
+        ],
+        "totalGrowthTime": 7,
+        "buyPrice": 100,
+        "normalSellPrice": 140,
+        "silverSellPrice": 210,
+        "goldSellPrice": 275,
+        "speedGrowStages": [
+            1,
+            1,
+            2,
+            2
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            1,
+            1,
+            2
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "speedGrowHarvest": 4,
+        "speedGrowAgricultureHarvest": 5,
+        "deluxeSpeedAgricultureHarvest": 7,
+        "speedGrowDaysLeft": 4,
+        "speedGrowAgricultureDaysLeft": 3,
+        "deluxeSpeedAgricultureDaysLeft": 0,
+        "speedGrowGPD": "23.33",
+        "speedGrowAgricultureGPD": "28.00",
+        "deluxeSpeedAgricultureGPD": "35.00",
+        "speedGrowGrowthRate": 6,
+        "speedGrowAgricultureGrowthRate": 5,
+        "deluxeSpeedAgricultureGrowGrowthRate": 4
+    },
+    {
+        "name": "Summer Spangler",
+        "growthStages": [
+            1,
+            2,
+            3,
+            2
+        ],
+        "totalGrowthTime": 8,
+        "buyPrice": 50,
+        "normalSellPrice": 90,
+        "silverSellPrice": 112,
+        "goldSellPrice": 135,
+        "speedGrowStages": [
+            1,
+            1,
+            3,
+            2
+        ],
+        "speedGrowAgricultureStages": [
+            1,
+            1,
+            2,
+            2
+        ],
+        "deluxeSpeedAgricultureStages": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "speedGrowHarvest": 4,
+        "speedGrowAgricultureHarvest": 4,
+        "deluxeSpeedAgricultureHarvest": 5,
+        "speedGrowDaysLeft": 0,
+        "speedGrowAgricultureDaysLeft": 4,
+        "deluxeSpeedAgricultureDaysLeft": 3,
+        "speedGrowGPD": "12.86",
+        "speedGrowAgricultureGPD": "15.00",
+        "deluxeSpeedAgricultureGPD": "18.00",
+        "speedGrowGrowthRate": 7,
+        "speedGrowAgricultureGrowthRate": 6,
+        "deluxeSpeedAgricultureGrowGrowthRate": 5
+    }
+]
