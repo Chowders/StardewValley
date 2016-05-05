@@ -2,7 +2,7 @@ function getCropData() {
   $.getJSON( "json/crops.json", function( data ) {
     speedGrowCalculator(data);
   });
-};
+}
 
 function speedGrowCalculator(data) {
   var season = data.Spring;
@@ -10,9 +10,13 @@ function speedGrowCalculator(data) {
   for(crop in season)
   {
     var actualCrop = season[crop];
-    speedGrowGrowthRate = calculateSingleGrowthTime(season[crop].growthStages,true,false,false);
-    speedGrowAgricultureGrowthRate = calculateSingleGrowthTime(season[crop].growthStages,true,false,true);
-    deluxeSpeedAgricultureGrowGrowthRate = calculateSingleGrowthTime(season[crop].growthStages,true,false,true);
+    var growthStages = actualCrop.growthStages;
+    actualCrop.speedGrowStages = calculateSingleGrowthTime(growthStages,true,false,false);
+    actualCrop.speedGrowAgricultureStages = calculateSingleGrowthTime(growthStages,true,false,true);
+    actualCrop.deluxeSpeedAgricultureStages = calculateSingleGrowthTime(growthStages,false,true,true);
+    speedGrowGrowthRate = sumList(actualCrop.speedGrowStages);
+    speedGrowAgricultureGrowthRate = sumList(actualCrop.speedGrowAgricultureStages);
+    deluxeSpeedAgricultureGrowGrowthRate = sumList(actualCrop.deluxeSpeedAgricultureStages);
     var daysleft, daysleftMin, daysleftMax;
     if(actualCrop.reproduceTime){
       reproduceTime = season[crop].reproduceTime;
@@ -59,10 +63,14 @@ function daysLeft(month,speed,harvest,reproduceTime) {
   }
 }
 
+function sumList(list) {
+  return list.reduce( (prev, curr) => prev + curr );
+}
+
 function calculateSingleGrowthTime(growthStages, speedGrow, deluxeSpeedGrow, agriculturist) {
   if(speedGrow || deluxeSpeedGrow || agriculturist)
   {
-    var totalGrowthTime = growthStages.reduce( (prev, curr) => prev + curr );
+    var totalGrowthTime = sumList(growthStages);
     var speedMultiplier = 0;
     if(speedGrow)
     {
@@ -72,23 +80,27 @@ function calculateSingleGrowthTime(growthStages, speedGrow, deluxeSpeedGrow, agr
     }
 
     if(agriculturist)
-      speedMultiplier += 0.1;
-    var daysRemovable = Math.ceil(speedMultiplier * totalGrowthTime);
-    var stageGrowthDays = growthStages.length;
-    for(var stage=0;stage<growthStages;stage++)
     {
-      if(stage > 0 || growthStages.length > 1)
+      speedMultiplier += 0.1;
+    }
+    var tempList = growthStages.slice();
+    var daysRemovable = Math.ceil(speedMultiplier * totalGrowthTime);
+    var tempDaysRemovable = daysRemovable;
+    for(var index =0; index<tempList.length; index++)
+    {
+      if(index > 0 || tempList[index] > 1)
       {
-        stageGrowthDays -= 1;
-        daysRemovable -= 1;
+        tempList[index] = tempList[index]-1;
+        --daysRemovable;
       }
-      if(daysRemovable < 1)
+      if(daysRemovable <= 0)
       {
         break;
       }
     }
-    return totalGrowthTime-daysRemovable;
+    return tempList;
   }
+  return 0;
 }
 
 
