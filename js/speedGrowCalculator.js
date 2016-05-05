@@ -19,21 +19,21 @@ function speedGrowCalculator(data) {
       actualCrop.speedGrowHarvest = Math.floor((month-speedGrowGrowthRate)/reproduceTime)+1;
       actualCrop.speedGrowAgricultureHarvest = Math.floor((month-speedGrowAgricultureGrowthRate)/reproduceTime)+1;
       actualCrop.deluxeSpeedAgricultureHarvest = Math.floor((month-deluxeSpeedAgricultureGrowGrowthRate)/reproduceTime)+1;
-      actualCrop.daysleftMin = daysLeft(month,speedGrowGrowthRate,actualCrop.speedGrowHarvest,reproduceTime);
-      actualCrop.daysleft = daysLeft(month,speedGrowAgricultureGrowthRate,actualCrop.speedGrowAgricultureHarvest,reproduceTime);
-      actualCrop.daysleftMax = daysLeft(month,deluxeSpeedAgricultureGrowGrowthRate,actualCrop.deluxeSpeedAgricultureHarvest,reproduceTime);
+      actualCrop.speedGrowDaysLeft = daysLeft(month,speedGrowGrowthRate,actualCrop.speedGrowHarvest,reproduceTime);
+      actualCrop.speedGrowAgricultureDaysLeft = daysLeft(month,speedGrowAgricultureGrowthRate,actualCrop.speedGrowAgricultureHarvest,reproduceTime);
+      actualCrop.deluxeSpeedAgricultureDaysLeft = daysLeft(month,deluxeSpeedAgricultureGrowGrowthRate,actualCrop.deluxeSpeedAgricultureHarvest,reproduceTime);
     }else {
       actualCrop.speedGrowHarvest = Math.floor(month/speedGrowGrowthRate);
       actualCrop.speedGrowAgricultureHarvest = Math.floor(month/speedGrowAgricultureGrowthRate);
       actualCrop.deluxeSpeedAgricultureHarvest = Math.floor(month/deluxeSpeedAgricultureGrowGrowthRate);
-      actualCrop.daysleftMin = daysLeft(month,speedGrowGrowthRate,actualCrop.speedGrowHarvest);
-      actualCrop.daysleft = daysLeft(month,speedGrowAgricultureGrowthRate,actualCrop.speedGrowAgricultureHarvest);
-      actualCrop.daysleftMax = daysLeft(month,deluxeSpeedAgricultureGrowGrowthRate,actualCrop.deluxeSpeedAgricultureHarvest);
+      actualCrop.speedGrowDaysLeft = daysLeft(month,speedGrowGrowthRate,actualCrop.speedGrowHarvest);
+      actualCrop.speedGrowAgricultureDaysLeft = daysLeft(month,speedGrowAgricultureGrowthRate,actualCrop.speedGrowAgricultureHarvest);
+      actualCrop.deluxeSpeedAgricultureDaysLeft = daysLeft(month,deluxeSpeedAgricultureGrowGrowthRate,actualCrop.deluxeSpeedAgricultureHarvest);
     }
     var normalSellPrice = actualCrop.normalSellPrice;
-    actualCrop.minGPD = calculateGoldPerDay(normalSellPrice,actualCrop.speedGrowHarvest,actualCrop.daysleftMin,2,month).toFixed(2);
-    actualCrop.normalGPD = calculateGoldPerDay(normalSellPrice,actualCrop.speedGrowAgricultureHarvest,actualCrop.daysleft,2,month).toFixed(2);
-    actualCrop.maxGPD = calculateGoldPerDay(normalSellPrice,actualCrop.deluxeSpeedAgricultureHarvest,actualCrop.daysleftMax,2,month).toFixed(2);
+    actualCrop.speedGrowGPD = calculateGoldPerDay(normalSellPrice,actualCrop.speedGrowHarvest,actualCrop.speedGrowDaysLeft,2,month).toFixed(2);
+    actualCrop.speedGrowAgricultureGPD = calculateGoldPerDay(normalSellPrice,actualCrop.speedGrowAgricultureHarvest,actualCrop.speedGrowAgricultureDaysLeft,2,month).toFixed(2);
+    actualCrop.deluxeSpeedAgricultureGPD = calculateGoldPerDay(normalSellPrice,actualCrop.deluxeSpeedAgricultureHarvest,actualCrop.deluxeSpeedAgricultureDaysLeft,2,month).toFixed(2);
     actualCrop.speedGrowGrowthRate = speedGrowGrowthRate;
     actualCrop.speedGrowAgricultureGrowthRate = speedGrowAgricultureGrowthRate;
     actualCrop.deluxeSpeedAgricultureGrowGrowthRate = deluxeSpeedAgricultureGrowGrowthRate;
